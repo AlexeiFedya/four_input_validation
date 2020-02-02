@@ -1,0 +1,44 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#task-wraper input {
+  margin: 20px;
+}
+
+#task-wraper .error {
+  border-color: red;
+}
+
+ /* Style the navigation bar */
+#task-wraper .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+#task-wraper .navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+#task-wraper .navbar a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Current/active navbar link */
+#task-wraper .active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  #task-wraper .navbar a {
+    float: none;
+    display: block;
+  }
+} 
